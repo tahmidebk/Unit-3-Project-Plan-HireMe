@@ -1,0 +1,55 @@
+body {
+    background-color: #20B2AA;
+}
+
+h2:hover {
+    background-color: yellow;
+}
+
+.ify {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 17px;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 20px;
+    color: #ffcc99;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    margin-top: 45px;
+    color: #F5F5F1;
+}
+
+.ifyt {
+    font-family: 'Orbitron', sans-serif;
+   }
+
+li {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 17px;
+}
+
+.tpic {
+    width: 50px;
+    width: 50%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 72px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
